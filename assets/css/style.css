@@ -938,11 +938,12 @@ section {
 }
 #footer .copyright {
   text-align: center;
+  font-size: 9px;
 }
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 9px;
   color: #eaebf0;
 }
 @media (max-width: 1199px) {
