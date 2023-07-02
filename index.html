@@ -85,17 +85,17 @@
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <p>I'm a final year Electrical and Electronic Engineering student at Imperial College London.
-              I have a keen interest in anything power-related, from small-scale electronics to grid distribution systems, focusing mainly on the control aspects.
+              I have a keen interest in power electronics and control systems, having completed many control theory modules during my studies.
               I also have good knowledge of digital electronics and enjoy working on projects in that field.
+              I about to start a new position at TAIT as a Graduate Controls Engineer.
             </p>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
               <li><i class="bi bi-chevron-right"></i> <strong>Based in:</strong> <span>London, UK</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>IET Power Academy Scholar:</strong><span>2021 - present</span></li>
               <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong><span>English (fluent), Polish (native), German (basic)</span></li>
             </ul>
             <p>
-              In my spare time, I do all things related to technical theatre. I am actively involved in the <a href="https://dramsoc.org">Imperial College Dramatic Society</a>,
+              In my spare time, I do all things related to technical theatre. During my time at university, I was actively involved in the <a href="https://dramsoc.org">Imperial College Dramatic Society</a>,
               holding committee positions since 2020 (including 2021-22 Treasurer and 2022-23 President) and have stage managed, designed lighting for, and acted in over 12 productions.
             </p>
           </div>
@@ -114,28 +114,17 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>MEng Electrical and Electronic Engineering</h4>
-              <h5>2019 - 2023</h5>
-              <p><em>Imperial College London, London, UK</em></p>
-              <ul>
-                <li>Relevant modules: Circuits and Systems, Control System (basic and advanced), Electromagnetism, Power Electronics and Power Systems, Programming for Engineers</li>
-                <li>Dean's List award (top 10%) in Year 1 and 2.</li>
-                <li>Completed German Level 1 and 2 courses (CEFR A2+).</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>High School</h4>
-              <h5>2012 - 2019</h5>
-              <p><em>Multinational School - Riyadh, Riyadh, Saudi Arabia</em></p>
-              <ul>
-                <li>GCE A-Levels: Maths A*, Physics A*, Chemistry A*, History A</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Graduate Controls Engineer</h4>
+              <h5>September 2023 - present</h5>
+              <p><em>TAIT, Haverhill, UK</em></p>
+              <ul>
+                <li>Responsible for the design and implementation of control systems for live events and permanent venue installations.</li>
+                <li>Programming PLCs for controlling variable speed chain hoists in various configurations, desiging and assembling control cabinets.</li>
+                <li>Assembly of rigging prototypes as proof of concept for live events.</li>
+              </ul>
+            </div>
             <div class="resume-item">
               <h4>Industrial Placement Student</h4>
               <h5>April 2022 - September 2022</h5>
@@ -157,6 +146,27 @@
                 <li>Performed maintenance tasks with experienced staff on high voltage switchgear.</li>
                 <li>Created appropriate technical documentation (reports, drawings, technical specifications etc).</li>
                 <li>Presented results to the Electrical Engineering Department.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>MEng Electrical and Electronic Engineering</h4>
+              <h5>September 2019 - June 2023</h5>
+              <p><em>Imperial College London, London, UK</em></p>
+              <ul>
+                <li>Relevant modules: Design of Linear Multivariable Control Systems, Stability and Control of Non-linear Systems, Circuits and Systems, Control System (basic and advanced), Electromagnetism, Power Electronics and Power Systems, Programming for Engineers</li>
+                <li>Dean's List award (top 10%) in Year 1 and 2.</li>
+                <li>Completed German Level 1, 2, and 3 courses (CEFR B1+).</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>High School</h4>
+              <h5>February 2012 - June 2019</h5>
+              <p><em>Multinational School - Riyadh, Riyadh, Saudi Arabia</em></p>
+              <ul>
+                <li>GCE A-Levels: Maths A*, Physics A*, Chemistry A*, History A</li>
               </ul>
             </div>
           </div>
@@ -228,6 +238,27 @@
       <div class="container">
         <div class="section-title">
           <h2>Projects</h2>
+        </div>
+        <div class="row" style="margin-bottom: 35px">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h3 class="portfolio-title">Observability of Modes in Power Systems Through Signal Injection</h3>
+            <p>
+              This was an individual final year project analysing the stability of power systems with high penetration of inverters, including
+              how the system poles from a control theory perspective can be obtained using online measurement. The main issue with inverter-based
+              generation is the observed lack of accuracy between supplied models and what is observed in real life.
+            </p>
+            <p>
+              The project explored the background of inverters, including recent oscillatory events observed on grids around the world and
+              their impact on stability. It proposes online impedance measurement at nodes with inverter-based generation for getting accurate
+              frequency response data. Modelling in MATLAB's Simulink environment is done on single phase and three phase systems to demonstrare
+              the method. A physical implementation of a signal injection device, capable of measuring the impedance spectrum and obtaining
+              approximate system poles, is proposed and the design considerations are discussed.
+            </p>
+            <p>You can find more info (including the full report and presentation) in the GitHub repository <a href="https://github.com/kmn219/FYP">here</a>.</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <img src="assets/img/injection_device.jpg" class="img-fluid" alt="">
+          </div>
         </div>
         <div class="row" style="margin-bottom: 35px">
           <div class="col-lg-6" data-aos="fade-right">
